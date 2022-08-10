@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: #f5f8fb;
+}
+.timer {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+#hours{
+    font-size: 80px;
+    font-weight: bold;
+}
+#minutes{
+    font-size: 80px;
+    font-weight: bold;
+}
+#seconds{
+    font-size: 80px;
+    font-weight: bold;
+}
+#miliseconds{
+    font-size: 36px;
+}
+#nano{
+    font-size: 35px;
+    display: flex;
+}
+.container{
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+}
+.buttons{
+    width: 25.3%;
+    height: 15vh;
+    border-radius: 50%;
+    margin: 9px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#c7c9ca ;
+    color:grey;
+}
+#start{
+    background: #18a69d;
+    color:  #f5f8fb ;
+    width: 25.3%;
+    height: 15vh;
+    border-radius: 50%;
+    margin: 9px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.split{
+    background: RGB(242, 158, 38);
+    color:  #f5f8fb ;
+    width: 25.3%;
+    height: 15vh;
+    border-radius: 50%;
+    margin: 9px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.reset{
+    background: RGB(242, 158, 38);
+    color:  #f5f8fb ;
+    width: 25.3%;
+    height: 15vh;
+    border-radius: 50%;
+    margin: 9px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#text{
+    font-size: 25px;
+    color: #f29e26;
+}
+#list{
+    font-size: 15px;
+    overflow: hidden;
+    height: 30vh;
+}
+.a{
+    font-weight: bold;
+    color: #f29e26; 
+}
+.b{
+    font-weight: bold;
+    color: #fa869b; 
+}
